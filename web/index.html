@@ -5708,7 +5708,7 @@
             Canvas.redraw();
           }
         };
-        xmlhttp.open("GET", "http://" + IP + "/tram.gpx", true);
+        xmlhttp.open("GET", "https://" + IP + "/tram.gpx", true);
         xmlhttp.send();
       },
       fromGML: (ver, filename, objectsShown = ver.checkBoxes.cbShowMG) => {
@@ -5846,7 +5846,7 @@
             //Canvas.redraw();
           }
         };
-        xmlhttp.open("GET", "http://" + IP + "/" + filename + ".graphml", true);
+        xmlhttp.open("GET", "https://" + IP + "/" + filename + ".graphml", true);
         xmlhttp.send();
       }
     }
