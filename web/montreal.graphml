@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="x" for="node" attr.name="x coordinate" attr.type="int"/>
+  <key id="y" for="node" attr.name="y coordinate" attr.type="int"/>
+  <key id="label" for="node" attr.name="station name" attr.type="string"/>
+  <key id="l0" for="edge" attr.name="line 0" attr.type="boolean" color.r="0" color.g="255" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l1" for="edge" attr.name="line 1" attr.type="boolean" color.r="255" color.g="0" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l2" for="edge" attr.name="line 2" attr.type="boolean" color.r="0" color.g="0" color.b="255">
+    <default>FALSE</default>
+  </key>
+  <key id="l3" for="edge" attr.name="line 3" attr.type="boolean" color.r="255" color.g="215" color.b="0">
+    <default>FALSE</default>
+  </key>
+
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="x">3663.0</data>
+      <data key="y">-2872.0</data>
+      <data key="label">Angrignon</data>
+    </node>
+    <node id="n1">
+      <data key="x">3794.0</data>
+      <data key="y">-2876.0</data>
+      <data key="label">Monk</data>
+    </node>
+    <node id="n2">
+      <data key="x">3947.0</data>
+      <data key="y">-2877.0</data>
+      <data key="label">Jolicoeur</data>
+    </node>
+    <node id="n3">
+      <data key="x">4064.0</data>
+      <data key="y">-2901.0</data>
+      <data key="label">Verdun</data>
+    </node>
+    <node id="n4">
+      <data key="x">4131.0</data>
+      <data key="y">-2893.0</data>
+      <data key="label">De L'Église</data>
+    </node>
+    <node id="n5">
+      <data key="x">4224.0</data>
+      <data key="y">-2771.0</data>
+      <data key="label">LaSalle</data>
+    </node>
+    <node id="n6">
+      <data key="x">4247.0</data>
+      <data key="y">-2669.0</data>
+      <data key="label">Charlevoix</data>
+    </node>
+    <node id="n7">
+      <data key="x">4184.0</data>
+      <data key="y">-2551.0</data>
+      <data key="label">Lionel Groulx</data>
+    </node>
+    <node id="n8">
+      <data key="x">4196.0</data>
+      <data key="y">-2426.0</data>
+      <data key="label">Atwater</data>
+    </node>
+    <node id="n9">
+      <data key="x">4299.0</data>
+      <data key="y">-2397.0</data>
+      <data key="label">Guy Concordia</data>
+    </node>
+    <node id="n10">
+      <data key="x">4396.0</data>
+      <data key="y">-2352.0</data>
+      <data key="label">Peel</data>
+    </node>
+    <node id="n11">
+      <data key="x">4452.0</data>
+      <data key="y">-2328.0</data>
+      <data key="label">McGill</data>
+    </node>
+    <node id="n12">
+      <data key="x">4509.0</data>
+      <data key="y">-2301.0</data>
+      <data key="label">Place des Arts</data>
+    </node>
+    <node id="n13">
+      <data key="x">4572.0</data>
+      <data key="y">-2280.0</data>
+      <data key="label">Saint Laurent</data>
+    </node>
+    <node id="n14">
+      <data key="x">4634.0</data>
+      <data key="y">-2252.0</data>
+      <data key="label">Berri UQAM</data>
+    </node>
+    <node id="n15">
+      <data key="x">4710.0</data>
+      <data key="y">-2221.0</data>
+      <data key="label">Beaudry</data>
+    </node>
+    <node id="n16">
+      <data key="x">4790.0</data>
+      <data key="y">-2186.0</data>
+      <data key="label">Papineau</data>
+    </node>
+    <node id="n17">
+      <data key="x">4878.0</data>
+      <data key="y">-2069.0</data>
+      <data key="label">Frontenac</data>
+    </node>
+    <node id="n18">
+      <data key="x">4941.0</data>
+      <data key="y">-1948.0</data>
+      <data key="label">Préfontaine</data>
+    </node>
+    <node id="n19">
+      <data key="x">4994.0</data>
+      <data key="y">-1907.0</data>
+      <data key="label">Joliette</data>
+    </node>
+    <node id="n20">
+      <data key="x">5058.0</data>
+      <data key="y">-1812.0</data>
+      <data key="label">Pie IX</data>
+    </node>
+    <node id="n21">
+      <data key="x">5159.0</data>
+      <data key="y">-1748.0</data>
+      <data key="label">Viau</data>
+    </node>
+    <node id="n22">
+      <data key="x">5228.0</data>
+      <data key="y">-1640.0</data>
+      <data key="label">Assomption</data>
+    </node>
+    <node id="n23">
+      <data key="x">5296.0</data>
+      <data key="y">-1543.0</data>
+      <data key="label">Cadillac</data>
+    </node>
+    <node id="n24">
+      <data key="x">5385.0</data>
+      <data key="y">-1488.0</data>
+      <data key="label">Langelier</data>
+    </node>
+    <node id="n25">
+      <data key="x">5468.0</data>
+      <data key="y">-1432.0</data>
+      <data key="label">Radisson</data>
+    </node>
+    <node id="n26">
+      <data key="x">5568.0</data>
+      <data key="y">-1361.0</data>
+      <data key="label">Honoré Beaugrand</data>
+    </node>
+    <node id="n27">
+      <data key="x">4863.0</data>
+      <data key="y">-2458.0</data>
+      <data key="label">Jean Drapeau</data>
+    </node>
+    <node id="n28">
+      <data key="x">5084.0</data>
+      <data key="y">-2362.0</data>
+      <data key="label">Longueil</data>
+    </node>
+    <node id="n29">
+      <data key="x">3532.0</data>
+      <data key="y">-1528.0</data>
+      <data key="label">Côte Vertu</data>
+    </node>
+    <node id="n30">
+      <data key="x">3563.0</data>
+      <data key="y">-1640.0</data>
+      <data key="label">Du Collège</data>
+    </node>
+    <node id="n31">
+      <data key="x">3610.0</data>
+      <data key="y">-1849.0</data>
+      <data key="label">De La Savanne</data>
+    </node>
+    <node id="n32">
+      <data key="x">3640.0</data>
+      <data key="y">-1968.0</data>
+      <data key="label">Namur</data>
+    </node>
+    <node id="n33">
+      <data key="x">3759.0</data>
+      <data key="y">-2032.0</data>
+      <data key="label">Plamondon</data>
+    </node>
+    <node id="n34">
+      <data key="x">3794.0</data>
+      <data key="y">-2108.0</data>
+      <data key="label">Côte Sainte Catherine</data>
+    </node>
+    <node id="n35">
+      <data key="x">3791.0</data>
+      <data key="y">-2210.0</data>
+      <data key="label">Snowdon</data>
+    </node>
+    <node id="n36">
+      <data key="x">3804.0</data>
+      <data key="y">-2349.0</data>
+      <data key="label">Villa Maria</data>
+    </node>
+    <node id="n37">
+      <data key="x">3903.0</data>
+      <data key="y">-2522.0</data>
+      <data key="label">Vendôme</data>
+    </node>
+    <node id="n38">
+      <data key="x">4083.0</data>
+      <data key="y">-2581.0</data>
+      <data key="label">Place Saint Henri</data>
+    </node>
+    <node id="n39">
+      <data key="x">4278.0</data>
+      <data key="y">-2496.0</data>
+      <data key="label">Georges Vanier</data>
+    </node>
+    <node id="n40">
+      <data key="x">4364.0</data>
+      <data key="y">-2455.0</data>
+      <data key="label">Lucien L'Allier</data>
+    </node>
+    <node id="n41">
+      <data key="x">4435.0</data>
+      <data key="y">-2439.0</data>
+      <data key="label">Bonaventure</data>
+    </node>
+    <node id="n42">
+      <data key="x">4508.0</data>
+      <data key="y">-2410.0</data>
+      <data key="label">Square Victoria</data>
+    </node>
+    <node id="n43">
+      <data key="x">4574.0</data>
+      <data key="y">-2378.0</data>
+      <data key="label">Place d'Armes</data>
+    </node>
+    <node id="n44">
+      <data key="x">4636.0</data>
+      <data key="y">-2348.0</data>
+      <data key="label">Champ de Mars</data>
+    </node>
+    <node id="n45">
+      <data key="x">4602.0</data>
+      <data key="y">-2156.0</data>
+      <data key="label">Sherbrooke</data>
+    </node>
+    <node id="n46">
+      <data key="x">4541.0</data>
+      <data key="y">-2009.0</data>
+      <data key="label">Mont Royal</data>
+    </node>
+    <node id="n47">
+      <data key="x">4512.0</data>
+      <data key="y">-1934.0</data>
+      <data key="label">Laurier</data>
+    </node>
+    <node id="n48">
+      <data key="x">4455.0</data>
+      <data key="y">-1819.0</data>
+      <data key="label">Rosemont</data>
+    </node>
+    <node id="n49">
+      <data key="x">4415.0</data>
+      <data key="y">-1729.0</data>
+      <data key="label">Beaubien</data>
+    </node>
+    <node id="n50">
+      <data key="x">4361.0</data>
+      <data key="y">-1616.0</data>
+      <data key="label">Jean Talon</data>
+    </node>
+    <node id="n51">
+      <data key="x">4274.0</data>
+      <data key="y">-1487.0</data>
+      <data key="label">Jarry</data>
+    </node>
+    <node id="n52">
+      <data key="x">4205.0</data>
+      <data key="y">-1386.0</data>
+      <data key="label">Crémazie</data>
+    </node>
+    <node id="n53">
+      <data key="x">4093.0</data>
+      <data key="y">-1217.0</data>
+      <data key="label">Sauvé</data>
+    </node>
+    <node id="n54">
+      <data key="x">4011.0</data>
+      <data key="y">-1096.0</data>
+      <data key="label">Henri Bourassa</data>
+    </node>
+    <node id="n55">
+      <data key="x">3911.0</data>
+      <data key="y">-2114.0</data>
+      <data key="label">Côte des Neiges</data>
+    </node>
+    <node id="n56">
+      <data key="x">4028.0</data>
+      <data key="y">-2062.0</data>
+      <data key="label">Université de Montréal</data>
+    </node>
+    <node id="n57">
+      <data key="x">4131.0</data>
+      <data key="y">-2004.0</data>
+      <data key="label">Édouard Montpetit</data>
+    </node>
+    <node id="n58">
+      <data key="x">4200.0</data>
+      <data key="y">-1857.0</data>
+      <data key="label">Outremont</data>
+    </node>
+    <node id="n59">
+      <data key="x">4140.0</data>
+      <data key="y">-1755.0</data>
+      <data key="label">Acadie</data>
+    </node>
+    <node id="n60">
+      <data key="x">4204.0</data>
+      <data key="y">-1669.0</data>
+      <data key="label">Parc</data>
+    </node>
+    <node id="n61">
+      <data key="x">4282.0</data>
+      <data key="y">-1635.0</data>
+      <data key="label">De Castelnau</data>
+    </node>
+    <node id="n62">
+      <data key="x">4496.0</data>
+      <data key="y">-1555.0</data>
+      <data key="label">Fabre</data>
+    </node>
+    <node id="n63">
+      <data key="x">4598.0</data>
+      <data key="y">-1509.0</data>
+      <data key="label">D'Iberville</data>
+    </node>
+    <node id="n64">
+      <data key="x">4671.0</data>
+      <data key="y">-1443.0</data>
+      <data key="label">Saint Michel</data>
+    </node>
+
+
+    <edge id="e0" source="n0" target="n1">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e1" source="n1" target="n2">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e3" source="n3" target="n4">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e4" source="n4" target="n5">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e5" source="n5" target="n6">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e6" source="n6" target="n7">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e7" source="n7" target="n8">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e8" source="n8" target="n9">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e9" source="n9" target="n10">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e10" source="n10" target="n11">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e11" source="n11" target="n12">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e12" source="n12" target="n13">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e13" source="n13" target="n14">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e14" source="n14" target="n15">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e15" source="n15" target="n16">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e16" source="n16" target="n17">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e17" source="n17" target="n18">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e18" source="n18" target="n19">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e19" source="n19" target="n20">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e20" source="n20" target="n21">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e21" source="n21" target="n22">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e22" source="n22" target="n23">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e23" source="n23" target="n24">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e24" source="n24" target="n25">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e25" source="n25" target="n26">
+        <data key="l0">true</data>
+    </edge>
+    <edge id="e26" source="n14" target="n27">
+        <data key="l3">true</data>
+    </edge>
+    <edge id="e27" source="n27" target="n28">
+        <data key="l3">true</data>
+    </edge>
+    <edge id="e28" source="n29" target="n30">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e29" source="n30" target="n31">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e30" source="n31" target="n32">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e31" source="n32" target="n33">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e32" source="n33" target="n34">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e33" source="n34" target="n35">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e34" source="n35" target="n36">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e35" source="n36" target="n37">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e36" source="n37" target="n38">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e37" source="n38" target="n7">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e38" source="n7" target="n39">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e39" source="n39" target="n40">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e40" source="n40" target="n41">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e41" source="n41" target="n42">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e42" source="n42" target="n43">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e43" source="n43" target="n44">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e44" source="n44" target="n14">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e45" source="n14" target="n45">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e46" source="n45" target="n46">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e47" source="n46" target="n47">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e48" source="n47" target="n48">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e49" source="n48" target="n49">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e50" source="n49" target="n50">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e51" source="n50" target="n51">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e52" source="n51" target="n52">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e53" source="n52" target="n53">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e54" source="n53" target="n54">
+        <data key="l1">true</data>
+    </edge>
+    <edge id="e55" source="n35" target="n55">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e56" source="n55" target="n56">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e57" source="n56" target="n57">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e58" source="n57" target="n58">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e59" source="n58" target="n59">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e60" source="n59" target="n60">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e61" source="n60" target="n61">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e62" source="n61" target="n50">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e63" source="n50" target="n62">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e64" source="n62" target="n63">
+        <data key="l2">true</data>
+    </edge>
+    <edge id="e65" source="n63" target="n64">
+        <data key="l2">true</data>
+    </edge>
+  </graph>
+</graphml>

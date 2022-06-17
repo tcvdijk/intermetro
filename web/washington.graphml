@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="x" for="node" attr.name="x coordinate" attr.type="int"/>
+  <key id="y" for="node" attr.name="y coordinate" attr.type="int"/>
+  <key id="label" for="node" attr.name="station name" attr.type="string"/>
+  <key id="l0" for="edge" attr.name="line 0" attr.type="boolean" color.r="255" color.g="0" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l1" for="edge" attr.name="line 1" attr.type="boolean" color.r="255" color.g="190" color.b="40">
+    <default>FALSE</default>
+  </key>
+  <key id="l2" for="edge" attr.name="line 2" attr.type="boolean" color.r="0" color.g="0" color.b="255">
+    <default>FALSE</default>
+  </key>
+  <key id="l3" for="edge" attr.name="line 3" attr.type="boolean" color.r="255" color.g="255" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l4" for="edge" attr.name="line 4" attr.type="boolean" color.r="20" color.g="150" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l5" for="edge" attr.name="line 5" attr.type="boolean" color.r="120" color.g="120" color.b="120">
+    <default>FALSE</default>
+  </key>
+
+  <graph id="G" edgedefault="undirected">
+<node id="n0">
+  <data key="x">619.000000</data>
+  <data key="y">307.662750</data>
+  <data key="label">Gallery Pl-Chinatown</data>
+</node>
+<node id="n1">
+  <data key="x">496.000000</data>
+  <data key="y">544.627191</data>
+  <data key="label">White Flint</data>
+</node>
+<node id="n2">
+  <data key="x">551.000000</data>
+  <data key="y">305.288829</data>
+  <data key="label">Arlington Cemetery</data>
+</node>
+<node id="n3">
+  <data key="x">581.000000</data>
+  <data key="y">268.335669</data>
+  <data key="label">Pentagon</data>
+</node>
+<node id="n4">
+  <data key="x">463.000000</data>
+  <data key="y">301.327804</data>
+  <data key="label">Virginia Sq-GMU</data>
+</node>
+<node id="n5">
+  <data key="x">439.000000</data>
+  <data key="y">620.719005</data>
+  <data key="label">Shady Grove</data>
+</node>
+<node id="n6">
+  <data key="x">525.000000</data>
+  <data key="y">312.339924</data>
+  <data key="label">Court House</data>
+</node>
+<node id="n7">
+  <data key="x">500.000000</data>
+  <data key="y">303.946934</data>
+  <data key="label">Clarendon</data>
+</node>
+<node id="n8">
+  <data key="x">240.000000</data>
+  <data key="y">337.084402</data>
+  <data key="label">Vienna/Fairfax-GMU</data>
+</node>
+<node id="n9">
+  <data key="x">282.000000</data>
+  <data key="y">314.435032</data>
+  <data key="label">Dunn Loring-Merrifield</data>
+</node>
+<node id="n10">
+  <data key="x">328.000000</data>
+  <data key="y">296.879338</data>
+  <data key="label">West Falls Church-VT/UVA</data>
+</node>
+<node id="n11">
+  <data key="x">381.000000</data>
+  <data key="y">290.241355</data>
+  <data key="label">East Falls Church</data>
+</node>
+<node id="n12">
+  <data key="x">441.000000</data>
+  <data key="y">298.415418</data>
+  <data key="label">Baliston-MU</data>
+</node>
+<node id="n13">
+  <data key="x">571.000000</data>
+  <data key="y">388.997903</data>
+  <data key="label">Cleveland Park</data>
+</node>
+<node id="n14">
+  <data key="x">563.000000</data>
+  <data key="y">406.404676</data>
+  <data key="label">Van Ness-UDC</data>
+</node>
+<node id="n15">
+  <data key="x">543.000000</data>
+  <data key="y">420.040240</data>
+  <data key="label">Tenleytown-AU</data>
+</node>
+<node id="n16">
+  <data key="x">525.000000</data>
+  <data key="y">483.479182</data>
+  <data key="label">Medical Center</data>
+</node>
+<node id="n17">
+  <data key="x">501.000000</data>
+  <data key="y">513.019313</data>
+  <data key="label">Grosvenor-Strathmore</data>
+</node>
+<node id="n18">
+  <data key="x">484.000000</data>
+  <data key="y">573.363716</data>
+  <data key="label">Twinbrook</data>
+</node>
+<node id="n19">
+  <data key="x">463.000000</data>
+  <data key="y">599.191130</data>
+  <data key="label">Rockville</data>
+</node>
+<node id="n20">
+  <data key="x">537.000000</data>
+  <data key="y">437.140716</data>
+  <data key="label">Friendship Heights</data>
+</node>
+<node id="n21">
+  <data key="x">532.000000</data>
+  <data key="y">460.899047</data>
+  <data key="label">Bethesda</data>
+</node>
+<node id="n22">
+  <data key="x">605.000000</data>
+  <data key="y">306.452043</data>
+  <data key="label">Metro Center</data>
+</node>
+<node id="n23">
+  <data key="x">643.000000</data>
+  <data key="y">303.613267</data>
+  <data key="label">Judiciary Sq</data>
+</node>
+<node id="n24">
+  <data key="x">663.000000</data>
+  <data key="y">314.722226</data>
+  <data key="label">Union Station</data>
+</node>
+<node id="n25">
+  <data key="x">577.000000</data>
+  <data key="y">351.438124</data>
+  <data key="label">Dupont Circle</data>
+</node>
+<node id="n26">
+  <data key="x">571.000000</data>
+  <data key="y">368.504421</data>
+  <data key="label">Woodley Park-Zoo/Adams Morgan</data>
+</node>
+<node id="n27">
+  <data key="x">600.000000</data>
+  <data key="y">321.455739</data>
+  <data key="label">McPherson Sq</data>
+</node>
+<node id="n28">
+  <data key="x">586.000000</data>
+  <data key="y">329.877802</data>
+  <data key="label">Farragut North</data>
+</node>
+<node id="n29">
+  <data key="x">585.000000</data>
+  <data key="y">321.472308</data>
+  <data key="label">Farragut West</data>
+</node>
+<node id="n30">
+  <data key="x">566.000000</data>
+  <data key="y">320.848117</data>
+  <data key="label">Foggy Bottom-GWU</data>
+</node>
+<node id="n31">
+  <data key="x">547.000000</data>
+  <data key="y">317.963554</data>
+  <data key="label">Rosslyn</data>
+</node>
+<node id="n32">
+  <data key="x">679.000000</data>
+  <data key="y">348.172586</data>
+  <data key="label">New York Ave</data>
+</node>
+<node id="n33">
+  <data key="x">686.000000</data>
+  <data key="y">367.171509</data>
+  <data key="label">Rhode Island Ave</data>
+</node>
+<node id="n34">
+  <data key="x">679.000000</data>
+  <data key="y">391.942457</data>
+  <data key="label">Brookland-CUA</data>
+</node>
+<node id="n35">
+  <data key="x">664.000000</data>
+  <data key="y">414.396714</data>
+  <data key="label">Fort Totten</data>
+</node>
+<node id="n36">
+  <data key="x">614.000000</data>
+  <data key="y">341.244188</data>
+  <data key="label">Mt Vernon Sq/7th St-Convention Center</data>
+</node>
+<node id="n37">
+  <data key="x">613.000000</data>
+  <data key="y">361.605026</data>
+  <data key="label">Shaw-Howard U</data>
+</node>
+<node id="n38">
+  <data key="x">620.000000</data>
+  <data key="y">381.041055</data>
+  <data key="label">U St/African-American Civil War Memorial/Cardozo</data>
+</node>
+<node id="n39">
+  <data key="x">633.000000</data>
+  <data key="y">394.314889</data>
+  <data key="label">Columbia Heights</data>
+</node>
+<node id="n40">
+  <data key="x">647.000000</data>
+  <data key="y">405.739883</data>
+  <data key="label">Georgia Ave-Petworth</data>
+</node>
+<node id="n41">
+  <data key="x">654.000000</data>
+  <data key="y">433.272674</data>
+  <data key="label">Takoma</data>
+</node>
+<node id="n42">
+  <data key="x">636.000000</data>
+  <data key="y">459.962586</data>
+  <data key="label">Silver Spring</data>
+</node>
+<node id="n43">
+  <data key="x">627.000000</data>
+  <data key="y">492.787606</data>
+  <data key="label">Forest Glen</data>
+</node>
+<node id="n44">
+  <data key="x">623.000000</data>
+  <data key="y">525.184732</data>
+  <data key="label">Wheaton</data>
+</node>
+<node id="n45">
+  <data key="x">621.000000</data>
+  <data key="y">566.373401</data>
+  <data key="label">Glenmont</data>
+</node>
+<node id="n46">
+  <data key="x">696.000000</data>
+  <data key="y">407.362341</data>
+  <data key="label">West Hyattsville</data>
+</node>
+<node id="n47">
+  <data key="x">714.000000</data>
+  <data key="y">416.509488</data>
+  <data key="label">Prince George's Plaza</data>
+</node>
+<node id="n48">
+  <data key="x">743.000000</data>
+  <data key="y">429.161741</data>
+  <data key="label">College Park-U of Md</data>
+</node>
+<node id="n49">
+  <data key="x">755.000000</data>
+  <data key="y">460.663907</data>
+  <data key="label">Greenbelt</data>
+</node>
+<node id="n50">
+  <data key="x">606.000000</data>
+  <data key="y">294.663368</data>
+  <data key="label">Federal Triangle</data>
+</node>
+<node id="n51">
+  <data key="x">604.000000</data>
+  <data key="y">281.454947</data>
+  <data key="label">Smithsonian</data>
+</node>
+<node id="n52">
+  <data key="x">621.000000</data>
+  <data key="y">281.092758</data>
+  <data key="label">L'Enfant Plaza</data>
+</node>
+<node id="n53">
+  <data key="x">621.000000</data>
+  <data key="y">293.702966</data>
+  <data key="label">Archives-Navy Memorial</data>
+</node>
+<node id="n54">
+  <data key="x">640.000000</data>
+  <data key="y">278.799393</data>
+  <data key="label">Federal Center SW</data>
+</node>
+<node id="n55">
+  <data key="x">656.000000</data>
+  <data key="y">277.792895</data>
+  <data key="label">Capitol South</data>
+</node>
+<node id="n56">
+  <data key="x">676.000000</data>
+  <data key="y">278.495438</data>
+  <data key="label">Eastern Market</data>
+</node>
+<node id="n57">
+  <data key="x">693.000000</data>
+  <data key="y">276.854507</data>
+  <data key="label">Potomac Ave</data>
+</node>
+<node id="n58">
+  <data key="x">709.000000</data>
+  <data key="y">284.544418</data>
+  <data key="label">Stadium-Armory</data>
+</node>
+<node id="n59">
+  <data key="x">739.000000</data>
+  <data key="y">291.031758</data>
+  <data key="label">Benning Road</data>
+</node>
+<node id="n60">
+  <data key="x">763.000000</data>
+  <data key="y">286.207654</data>
+  <data key="label">Capitol Heights</data>
+</node>
+<node id="n61">
+  <data key="x">728.000000</data>
+  <data key="y">300.150641</data>
+  <data key="label">Minnesota Ave</data>
+</node>
+<node id="n62">
+  <data key="x">754.000000</data>
+  <data key="y">313.725147</data>
+  <data key="label">Deanwood</data>
+</node>
+<node id="n63">
+  <data key="x">779.000000</data>
+  <data key="y">324.561837</data>
+  <data key="label">Cheverly</data>
+</node>
+<node id="n64">
+  <data key="x">800.000000</data>
+  <data key="y">338.281546</data>
+  <data key="label">Landover</data>
+</node>
+<node id="n65">
+  <data key="x">824.000000</data>
+  <data key="y">352.973669</data>
+  <data key="label">New Carroliton</data>
+</node>
+<node id="n66">
+  <data key="x">868.000000</data>
+  <data key="y">288.841380</data>
+  <data key="label">Largo Town Center</data>
+</node>
+<node id="n67">
+  <data key="x">826.000000</data>
+  <data key="y">281.612971</data>
+  <data key="label">Morgan Boulevard</data>
+</node>
+<node id="n68">
+  <data key="x">791.000000</data>
+  <data key="y">282.202960</data>
+  <data key="label">Addison Road-Seat Pleasant</data>
+</node>
+<node id="n69">
+  <data key="x">630.000000</data>
+  <data key="y">263.687750</data>
+  <data key="label">Waterfront-SEU</data>
+</node>
+<node id="n70">
+  <data key="x">647.000000</data>
+  <data key="y">262.216384</data>
+  <data key="label">Navy Yard</data>
+</node>
+<node id="n71">
+  <data key="x">662.000000</data>
+  <data key="y">249.350823</data>
+  <data key="label">Anacostia</data>
+</node>
+<node id="n72">
+  <data key="x">749.000000</data>
+  <data key="y">171.367169</data>
+  <data key="label">Branch Ave</data>
+</node>
+<node id="n73">
+  <data key="x">680.000000</data>
+  <data key="y">233.626423</data>
+  <data key="label">Congress Heights</data>
+</node>
+<node id="n74">
+  <data key="x">740.000000</data>
+  <data key="y">191.000540</data>
+  <data key="label">Suitland</data>
+</node>
+<node id="n75">
+  <data key="x">727.000000</data>
+  <data key="y">207.851166</data>
+  <data key="label">Naylor Road</data>
+</node>
+<node id="n76">
+  <data key="x">703.000000</data>
+  <data key="y">223.806150</data>
+  <data key="label">Southern Ave</data>
+</node>
+<node id="n77">
+  <data key="x">586.000000</data>
+  <data key="y">253.532760</data>
+  <data key="label">Pentagon City</data>
+</node>
+<node id="n78">
+  <data key="x">601.000000</data>
+  <data key="y">249.562414</data>
+  <data key="label">Crystal City</data>
+</node>
+<node id="n79">
+  <data key="x">601.000000</data>
+  <data key="y">231.026191</data>
+  <data key="label">Ronald Reagan Washington National Airport</data>
+</node>
+<node id="n80">
+  <data key="x">597.000000</data>
+  <data key="y">196.096334</data>
+  <data key="label">Braddock Road</data>
+</node>
+<node id="n81">
+  <data key="x">583.000000</data>
+  <data key="y">163.681554</data>
+  <data key="label">King Street</data>
+</node>
+<node id="n82">
+  <data key="x">565.000000</data>
+  <data key="y">151.659489</data>
+  <data key="label">Van Dorn Street</data>
+</node>
+<node id="n83">
+  <data key="x">533.000000</data>
+  <data key="y">148.785162</data>
+  <data key="label">Franconia-Springfield</data>
+</node>
+<node id="n84">
+  <data key="x">576.000000</data>
+  <data key="y">132.201092</data>
+  <data key="label">Eisenhower Ave</data>
+</node>
+<node id="n85">
+  <data key="x">565.000000</data>
+  <data key="y">107.078799</data>
+  <data key="label">Huntington</data>
+</node>
+<node id="n86">
+  <data key="x">344.0</data>
+  <data key="y">347.0</data>
+  <data key="label">Tysons East</data>
+</node>
+<node id="n87">
+  <data key="x">328</data>
+  <data key="y">341</data>
+  <data key="label">Tysons Central 123</data>
+</node>
+<node id="n88">
+  <data key="x">322</data>
+  <data key="y">341</data>
+  <data key="label">Tysons Central 7</data>
+</node>
+<node id="n89">
+  <data key="x">322</data>
+  <data key="y">357</data>
+  <data key="label">Tysons West</data>
+</node>
+<node id="n90">
+  <data key="x">270</data>
+  <data key="y">454</data>
+  <data key="label">Wiehle Ave</data>
+</node>
+<node id="n91">
+  <data key="x">255</data>
+  <data key="y">480</data>
+  <data key="label">Reston Pkwy</data>
+</node>
+<node id="n92">
+  <data key="x">233</data>
+  <data key="y">509</data>
+  <data key="label">Herndon-Monroe</data>
+</node>
+<node id="n93">
+  <data key="x">224</data>
+  <data key="y">532</data>
+  <data key="label">Route 28</data>
+</node>
+<node id="n94">
+  <data key="x">189</data>
+  <data key="y">557</data>
+  <data key="label">Dulles Airport</data>
+</node>
+<node id="n95">
+  <data key="x">216</data>
+  <data key="y">606</data>
+  <data key="label">Route 606</data>
+</node>
+<node id="n96">
+  <data key="x">215</data>
+  <data key="y">637</data>
+  <data key="label">Route 772</data>
+</node>
+
+<edge id="e0" source="n19" target="n5">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e1" source="n19" target="n18">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e2" source="n18" target="n1">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e3" source="n1" target="n17">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e4" source="n17" target="n16">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e5" source="n16" target="n21">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e6" source="n21" target="n20">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e7" source="n20" target="n15">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e8" source="n15" target="n14">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e9" source="n14" target="n13">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e10" source="n13" target="n26">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e11" source="n26" target="n25">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e12" source="n28" target="n25">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e13" source="n28" target="n22">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e14" source="n22" target="n0">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e15" source="n0" target="n23">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e16" source="n24" target="n23">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e17" source="n32" target="n24">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e18" source="n33" target="n32">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e19" source="n33" target="n34">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e20" source="n34" target="n35">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e21" source="n41" target="n35">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e22" source="n42" target="n41">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e23" source="n43" target="n42">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e24" source="n44" target="n43">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e25" source="n44" target="n45">
+  <data key="l0">True</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e26" source="n9" target="n8">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e27" source="n9" target="n10">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e28" source="n10" target="n11">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e29" source="n11" target="n12">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e30" source="n12" target="n4">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e31" source="n4" target="n7">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e32" source="n6" target="n7">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e33" source="n6" target="n31">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e34" source="n31" target="n30">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e35" source="n29" target="n30">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e36" source="n29" target="n27">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e37" source="n27" target="n22">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e38" source="n50" target="n22">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e39" source="n51" target="n50">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e40" source="n52" target="n51">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e41" source="n54" target="n52">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e42" source="n54" target="n55">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e43" source="n55" target="n56">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e44" source="n57" target="n56">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e45" source="n58" target="n57">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+  <data key="l5">True</data>
+</edge>
+<edge id="e46" source="n61" target="n58">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e47" source="n62" target="n61">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e48" source="n63" target="n62">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e49" source="n64" target="n63">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e50" source="n64" target="n65">
+  <data key="l0">False</data>
+  <data key="l1">True</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e51" source="n82" target="n83">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e52" source="n82" target="n81">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e53" source="n81" target="n80">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e54" source="n79" target="n80">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e55" source="n79" target="n78">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e56" source="n78" target="n77">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e57" source="n77" target="n3">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e58" source="n3" target="n2">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e59" source="n2" target="n31">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e60" source="n59" target="n58">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e61" source="n60" target="n59">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e62" source="n68" target="n60">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e63" source="n67" target="n68">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e64" source="n67" target="n66">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">True</data>
+  <data key="l3">False</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e65" source="n84" target="n85">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e66" source="n84" target="n81">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e67" source="n3" target="n52">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">False</data>
+</edge>
+<edge id="e68" source="n53" target="n52">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e69" source="n0" target="n53">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e70" source="n36" target="n0">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e71" source="n74" target="n72">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e72" source="n74" target="n75">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e73" source="n75" target="n76">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e74" source="n76" target="n73">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e75" source="n73" target="n71">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e76" source="n71" target="n70">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e77" source="n70" target="n69">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e78" source="n69" target="n52">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e79" source="n37" target="n36">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e90" source="n38" target="n37">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e91" source="n39" target="n38">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e92" source="n40" target="n39">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e93" source="n40" target="n35">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">True</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e94" source="n35" target="n46">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e95" source="n47" target="n46">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e96" source="n47" target="n48">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e97" source="n48" target="n49">
+  <data key="l0">False</data>
+  <data key="l1">False</data>
+  <data key="l2">False</data>
+  <data key="l3">False</data>
+  <data key="l4">True</data>
+</edge>
+<edge id="e98" source="n11" target="n86">
+  <data key="l5">True</data>
+</edge>
+<edge id="e99" source="n86" target="n87">
+  <data key="l5">True</data>
+</edge>
+<edge id="e100" source="n87" target="n88">
+  <data key="l5">True</data>
+</edge>
+<edge id="e101" source="n88" target="n89">
+  <data key="l5">True</data>
+</edge>
+<edge id="e102" source="n89" target="n90">
+  <data key="l5">True</data>
+</edge>
+<edge id="e103" source="n90" target="n91">
+  <data key="l5">True</data>
+</edge>
+<edge id="e104" source="n91" target="n92">
+  <data key="l5">True</data>
+</edge>
+<edge id="e105" source="n92" target="n93">
+  <data key="l5">True</data>
+</edge>
+<edge id="e106" source="n93" target="n94">
+  <data key="l5">True</data>
+</edge>
+<edge id="e107" source="n94" target="n95">
+  <data key="l5">True</data>
+</edge>
+<edge id="e108" source="n95" target="n96">
+  <data key="l5">True</data>
+</edge>
+
+
+  </graph>
+</graphml>

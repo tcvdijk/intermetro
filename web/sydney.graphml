@@ -1,0 +1,1557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="x" for="node" attr.name="x coordinate" attr.type="double"/>
+  <key id="y" for="node" attr.name="y coordinate" attr.type="double"/>
+  <key id="label" for="node" attr.name="station name" attr.type="string"/>  
+  <key id="l1" for="edge" attr.name="North Shore and Western Lines" attr.type="boolean" color.r="255" color.g="215" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l2" for="edge" attr.name="Northern Line" attr.type="boolean" color.r="255" color.g="0" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l3" for="edge" attr.name="Carlingford Line" attr.type="boolean" color.r="0" color.g="0" color.b="128">
+    <default>FALSE</default>
+  </key>
+  <key id="l4" for="edge" attr.name="Bankstown Line" attr.type="boolean" color.r="255" color.g="140" color.b="0">
+    <default>FALSE</default>
+  </key>
+  <key id="l5" for="edge" attr.name="Airport and East Hills Line" attr.type="boolean" color.r="34" color.g="139" color.b="34">
+    <default>FALSE</default>
+  </key>
+  <key id="l6" for="edge" attr.name="Eastern Suburbs and Illawara Line" attr.type="boolean" color.r="100" color.g="149" color.b="237">
+    <default>FALSE</default>
+  </key>
+  <key id="l7" for="edge" attr.name="Inner West Line" attr.type="boolean" color.r="106" color.g="90" color.b="205">
+    <default>FALSE</default>
+  </key>
+  <key id="l8" for="edge" attr.name="Cumberland Line" attr.type="boolean" color.r="199" color.g="21" color.b="133">
+    <default>FALSE</default>
+  </key>
+  <key id="l9" for="edge" attr.name="South Line" attr.type="boolean" color.r="135" color.g="206" color.b="250">
+    <default>FALSE</default>
+  </key>
+  <key id="l10" for="edge" attr.name="Olympic Line" attr.type="boolean" color.r="0" color.g="0" color.b="0">
+    <default>FALSE</default>
+  </key>
+
+
+
+
+
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+        <data key="x">151.113098</data>
+        <data key="y">-33.9692</data>
+        <data key="label">Allawah</data>
+    </node>
+    <node id="n1">
+        <data key="x">151.147095</data>
+        <data key="y">-33.935299</data>
+        <data key="label">Arncliffe</data>
+    </node>
+    <node id="n2">
+        <data key="x">151.185593</data>
+        <data key="y">-33.8069</data>
+        <data key="label">Artarmon</data>
+    </node>
+    <node id="n3">
+        <data key="x">151.125504</data>
+        <data key="y">-33.886799</data>
+        <data key="label">Ashfield</data>
+    </node>
+    <node id="n4">
+        <data key="x">151.1082</data>
+        <data key="y">-33.688202</data>
+        <data key="label">Asquith</data>
+    </node>
+    <node id="n5">
+        <data key="x">151.032501</data>
+        <data key="y">-33.8489</data>
+        <data key="label">Auburn</data>
+    </node>
+    <node id="n6">
+        <data key="x">151.138702</data>
+        <data key="y">-33.944099</data>
+        <data key="label">Banksia</data>
+    </node>
+    <node id="n7">
+        <data key="x">151.034897</data>
+        <data key="y">-33.917</data>
+        <data key="label">Bankstown</data>
+    </node>
+    <node id="n8">
+        <data key="x">151.124405</data>
+        <data key="y">-33.930901</data>
+        <data key="label">Bardwell Park</data>
+    </node>
+    <node id="n9">
+        <data key="x">151.066803</data>
+        <data key="y">-33.749199</data>
+        <data key="label">Beecroft</data>
+    </node>
+    <node id="n10">
+        <data key="x">151.089203</data>
+        <data key="y">-33.9161</data>
+        <data key="label">Belmore</data>
+    </node>
+    <node id="n11">
+        <data key="x">151.031906</data>
+        <data key="y">-33.870998</data>
+        <data key="label">Berala</data>
+    </node>
+    <node id="n12">
+        <data key="x">151.153397</data>
+        <data key="y">-33.623699</data>
+        <data key="label">Berowra</data>
+    </node>
+    <node id="n13">
+        <data key="x">151.082108</data>
+        <data key="y">-33.9478</data>
+        <data key="label">Beverly Hills</data>
+    </node>
+    <node id="n14">
+        <data key="x">151.111404</data>
+        <data key="y">-33.937099</data>
+        <data key="label">Bexley North</data>
+    </node>
+    <node id="n15">
+        <data key="x">151.024399</data>
+        <data key="y">-33.892601</data>
+        <data key="label">Birrong</data>
+    </node>
+    <node id="n16">
+        <data key="x">150.908707</data>
+        <data key="y">-33.7668</data>
+        <data key="label">Blacktown</data>
+    </node>
+    <node id="n17">
+        <data key="x">151.246506</data>
+        <data key="y">-33.893101</data>
+        <data key="label">Bondi Junction</data>
+    </node>
+    <node id="n18">
+        <data key="x">151.104706</data>
+        <data key="y">-33.876301</data>
+        <data key="label">Burwood</data>
+    </node>
+    <node id="n19">
+        <data key="x">150.938995</data>
+        <data key="y">-33.8927</data>
+        <data key="label">Cabramatta</data>
+    </node>
+    <node id="n20">
+        <data key="x">151.025604</data>
+        <data key="y">-33.817001</data>
+        <data key="label">Camellia</data>
+    </node>
+    <node id="n21">
+        <data key="x">150.812607</data>
+        <data key="y">-34.063801</data>
+        <data key="label">Campbelltown</data>
+    </node>
+    <node id="n22">
+        <data key="x">151.101303</data>
+        <data key="y">-33.909901</data>
+        <data key="label">Campsie</data>
+    </node>
+    <node id="n23">
+        <data key="x">150.944199</data>
+        <data key="y">-33.886501</data>
+        <data key="label">Canley Vale</data>
+    </node>
+    <node id="n24">
+        <data key="x">151.117493</data>
+        <data key="y">-33.91</data>
+        <data key="label">Canterbury</data>
+    </node>
+    <node id="n25">
+        <data key="x">151.121094</data>
+        <data key="y">-34.0415</data>
+        <data key="label">Caringbah</data>
+    </node>
+    <node id="n26">
+        <data key="x">151.046204</data>
+        <data key="y">-33.780102</data>
+        <data key="label">Carlingford</data>
+    </node>
+    <node id="n27">
+        <data key="x">151.123795</data>
+        <data key="y">-33.967701</data>
+        <data key="label">Carlton</data>
+    </node>
+    <node id="n28">
+        <data key="x">150.960907</data>
+        <data key="y">-33.884201</data>
+        <data key="label">Carramar</data>
+    </node>
+    <node id="n29">
+        <data key="x">150.910797</data>
+        <data key="y">-33.9487</data>
+        <data key="label">Casula</data>
+    </node>
+    <node id="n30">
+        <data key="x">151.205704</data>
+        <data key="y">-33.882999</data>
+        <data key="label">Central</data>
+    </node>
+    <node id="n31">
+        <data key="x">151.181</data>
+        <data key="y">-33.796799</data>
+        <data key="label">Chatswood</data>
+    </node>
+    <node id="n32">
+        <data key="x">151.078796</data>
+        <data key="y">-33.754601</data>
+        <data key="label">Cheltenham</data>
+    </node>
+    <node id="n33">
+        <data key="x">150.996597</data>
+        <data key="y">-33.883202</data>
+        <data key="label">Chester Hill</data>
+    </node>
+    <node id="n34">
+        <data key="x">151.210907</data>
+        <data key="y">-33.861198</data>
+        <data key="label">Circular Quay</data>
+    </node>
+    <node id="n35">
+        <data key="x">150.790497</data>
+        <data key="y">-33.610001</data>
+        <data key="label">Clarendon</data>
+    </node>
+    <node id="n36">
+        <data key="x">151.017197</data>
+        <data key="y">-33.8349</data>
+        <data key="label">Clyde</data>
+    </node>
+    <node id="n37">
+        <data key="x">151.067902</data>
+        <data key="y">-34.004799</data>
+        <data key="label">Como</data>
+    </node>
+    <node id="n38">
+        <data key="x">151.0858</data>
+        <data key="y">-33.847599</data>
+        <data key="label">Concord West</data>
+    </node>
+    <node id="n39">
+        <data key="x">151.150497</data>
+        <data key="y">-34.056198</data>
+        <data key="label">Cronulla</data>
+    </node>
+    <node id="n40">
+        <data key="x">151.115799</data>
+        <data key="y">-33.8829</data>
+        <data key="label">Croydon</data>
+    </node>
+    <node id="n41">
+        <data key="x">151.087799</data>
+        <data key="y">-33.798401</data>
+        <data key="label">Denistone</data>
+    </node>
+    <node id="n42">
+        <data key="x">151.179596</data>
+        <data key="y">-33.930401</data>
+        <data key="label">Domestic</data>
+    </node>
+    <node id="n43">
+        <data key="x">150.866196</data>
+        <data key="y">-33.7631</data>
+        <data key="label">Doonside</data>
+    </node>
+    <node id="n44">
+        <data key="x">151.139801</data>
+        <data key="y">-33.909302</data>
+        <data key="label">Dulwich Hill</data>
+    </node>
+    <node id="n45">
+        <data key="x">151.033096</data>
+        <data key="y">-33.804001</data>
+        <data key="label">Dundas</data>
+    </node>
+    <node id="n46">
+        <data key="x">150.9841</data>
+        <data key="y">-33.960602</data>
+        <data key="label">East Hills</data>
+    </node>
+    <node id="n47">
+        <data key="x">150.758194</data>
+        <data key="y">-33.6017</data>
+        <data key="label">East Richmond</data>
+    </node>
+    <node id="n48">
+        <data key="x">151.082794</data>
+        <data key="y">-33.789501</data>
+        <data key="label">Eastwood</data>
+    </node>
+    <node id="n49">
+        <data key="x">151.239105</data>
+        <data key="y">-33.879902</data>
+        <data key="label">Edgecliff</data>
+    </node>
+    <node id="n50">
+        <data key="x">150.671799</data>
+        <data key="y">-33.744202</data>
+        <data key="label">Emu Plains</data>
+    </node>
+    <node id="n51">
+        <data key="x">151.013702</data>
+        <data key="y">-34.067299</data>
+        <data key="label">Engadine</data>
+    </node>
+    <node id="n52">
+        <data key="x">151.082397</data>
+        <data key="y">-33.770901</data>
+        <data key="label">Epping</data>
+    </node>
+    <node id="n53">
+        <data key="x">151.184799</data>
+        <data key="y">-33.9006</data>
+        <data key="label">Erskineville</data>
+    </node>
+    <node id="n54">
+        <data key="x">150.957703</data>
+        <data key="y">-33.871101</data>
+        <data key="label">Fairfield</data>
+    </node>
+    <node id="n55">
+        <data key="x">151.069901</data>
+        <data key="y">-33.864101</data>
+        <data key="label">Flemington</data>
+    </node>
+    <node id="n56">
+        <data key="x">150.892105</data>
+        <data key="y">-33.970699</data>
+        <data key="label">Glenfield</data>
+    </node>
+    <node id="n57">
+        <data key="x">151.155701</data>
+        <data key="y">-33.754501</data>
+        <data key="label">Gordon</data>
+    </node>
+    <node id="n58">
+        <data key="x">151.012604</data>
+        <data key="y">-33.831799</data>
+        <data key="label">Granville</data>
+    </node>
+    <node id="n59">
+        <data key="x">151.1996</data>
+        <data key="y">-33.9053</data>
+        <data key="label">Green Square</data>
+    </node>
+    <node id="n60">
+        <data key="x">150.983795</data>
+        <data key="y">-33.853699</data>
+        <data key="label">Guildford</data>
+    </node>
+    <node id="n61">
+        <data key="x">151.084305</data>
+        <data key="y">-34.035</data>
+        <data key="label">Gymea</data>
+    </node>
+    <node id="n62">
+        <data key="x">151.007095</data>
+        <data key="y">-33.822498</data>
+        <data key="label">Harris Park</data>
+    </node>
+    <node id="n63">
+        <data key="x">151.007706</data>
+        <data key="y">-34.087502</data>
+        <data key="label">Heathcote</data>
+    </node>
+    <node id="n64">
+        <data key="x">150.955704</data>
+        <data key="y">-33.961601</data>
+        <data key="label">Holsworthy</data>
+    </node>
+    <node id="n65">
+        <data key="x">151.086594</data>
+        <data key="y">-33.8661</data>
+        <data key="label">Homebush</data>
+    </node>
+    <node id="n66">
+        <data key="x">151.098495</data>
+        <data key="y">-33.701302</data>
+        <data key="label">Hornsby</data>
+    </node>
+    <node id="n67">
+        <data key="x">151.131897</data>
+        <data key="y">-33.909698</data>
+        <data key="label">Hurlstone Park</data>
+    </node>
+    <node id="n68">
+        <data key="x">151.100601</data>
+        <data key="y">-33.966099</data>
+        <data key="label">Hurstville</data>
+    </node>
+    <node id="n69">
+        <data key="x">150.865494</data>
+        <data key="y">-33.995701</data>
+        <data key="label">Ingleburn</data>
+    </node>
+    <node id="n70">
+        <data key="x">151.166107</data>
+        <data key="y">-33.935001</data>
+        <data key="label">International</data>
+    </node>
+    <node id="n71">
+        <data key="x">151.064194</data>
+        <data key="y">-34.015598</data>
+        <data key="label">Jannali</data>
+    </node>
+    <node id="n72">
+        <data key="x">151.162598</data>
+        <data key="y">-33.763901</data>
+        <data key="label">Killara</data>
+    </node>
+    <node id="n73">
+        <data key="x">151.219193</data>
+        <data key="y">-33.8717</data>
+        <data key="label">Kings Cross</data>
+    </node>
+    <node id="n74">
+        <data key="x">151.098801</data>
+        <data key="y">-33.940498</data>
+        <data key="label">Kingsgrove</data>
+    </node>
+    <node id="n75">
+        <data key="x">150.719894</data>
+        <data key="y">-33.756001</data>
+        <data key="label">Kingswood</data>
+    </node>
+    <node id="n76">
+        <data key="x">151.070801</data>
+        <data key="y">-34.034599</data>
+        <data key="label">Kirrawee</data>
+    </node>
+    <node id="n77">
+        <data key="x">151.132095</data>
+        <data key="y">-33.961498</data>
+        <data key="label">Kogarah</data>
+    </node>
+    <node id="n78">
+        <data key="x">151.076202</data>
+        <data key="y">-33.919102</data>
+        <data key="label">Lakemba</data>
+    </node>
+    <node id="n79">
+        <data key="x">150.9841</data>
+        <data key="y">-33.881599</data>
+        <data key="label">Leightonfield</data>
+    </node>
+    <node id="n80">
+        <data key="x">150.828903</data>
+        <data key="y">-34.051399</data>
+        <data key="label">Leumeah</data>
+    </node>
+    <node id="n81">
+        <data key="x">151.148193</data>
+        <data key="y">-33.893101</data>
+        <data key="label">Lewisham</data>
+    </node>
+    <node id="n82">
+        <data key="x">151.044907</data>
+        <data key="y">-33.862099</data>
+        <data key="label">Lidcombe</data>
+    </node>
+    <node id="n83">
+        <data key="x">151.169907</data>
+        <data key="y">-33.773201</data>
+        <data key="label">Lindfield</data>
+    </node>
+    <node id="n84">
+        <data key="x">150.9263</data>
+        <data key="y">-33.923599</data>
+        <data key="label">Liverpool</data>
+    </node>
+    <node id="n85">
+        <data key="x">151.0504</data>
+        <data key="y">-34.044701</data>
+        <data key="label">Loftus</data>
+    </node>
+    <node id="n86">
+        <data key="x">150.795898</data>
+        <data key="y">-34.071201</data>
+        <data key="label">Macarthur</data>
+    </node>
+    <node id="n87">
+        <data key="x">151.186203</data>
+        <data key="y">-33.896301</data>
+        <data key="label">Macdonaldtown</data>
+    </node>
+    <node id="n88">
+        <data key="x">150.878098</data>
+        <data key="y">-33.983799</data>
+        <data key="label">Macquarie Fields</data>
+    </node>
+    <node id="n89">
+        <data key="x">150.8992</data>
+        <data key="y">-33.7458</data>
+        <data key="label">Marayong</data>
+    </node>
+    <node id="n90">
+        <data key="x">151.155502</data>
+        <data key="y">-33.9132</data>
+        <data key="label">Marrickville</data>
+    </node>
+    <node id="n91">
+        <data key="x">151.210907</data><!--was: .211807-->
+        <data key="y">-33.8666</data>
+        <data key="label">Martin Place</data>
+    </node>
+    <node id="n92">
+        <data key="x">151.1866</data>
+        <data key="y">-33.921501</data>
+        <data key="label">Mascot</data>
+    </node>
+    <node id="n93">
+        <data key="x">151.090103</data>
+        <data key="y">-33.815399</data>
+        <data key="label">Meadowbank</data>
+    </node>
+    <node id="n94">
+        <data key="x">150.992203</data>
+        <data key="y">-33.835602</data>
+        <data key="label">Merrylands</data>
+    </node>
+    <node id="n95">
+        <data key="x">151.211395</data>
+        <data key="y">-33.8456</data>
+        <data key="label">Milsons Point</data>
+    </node>
+    <node id="n96">
+        <data key="x">150.8414</data>
+        <data key="y">-34.026901</data>
+        <data key="label">Minto</data>
+    </node>
+    <node id="n97">
+        <data key="x">151.102005</data>
+        <data key="y">-34.036499</data>
+        <data key="label">Miranda</data>
+    </node>
+    <node id="n98">
+        <data key="x">151.0811</data>
+        <data key="y">-33.9702</data>
+        <data key="label">Mortdale</data>
+    </node>
+    <node id="n99">
+        <data key="x">151.115204</data>
+        <data key="y">-33.6712</data>
+        <data key="label">Mt Colah</data>
+    </node>
+    <node id="n100">
+        <data key="x">150.818893</data>
+        <data key="y">-33.768799</data>
+        <data key="label">Mt Druitt</data>
+    </node>
+    <node id="n101">
+        <data key="x">151.137497</data>
+        <data key="y">-33.652302</data>
+        <data key="label">Mt Kuring-gai</data>
+    </node>
+    <node id="n102">
+        <data key="x">150.830597</data>
+        <data key="y">-33.625198</data>
+        <data key="label">Mulgrave</data>
+    </node>
+    <node id="n103">
+        <data key="x">151.211304</data>
+        <data key="y">-33.8755</data>
+        <data key="label">Museum</data>
+    </node>
+    <node id="n104">
+        <data key="x">151.069595</data>
+        <data key="y">-33.946602</data>
+        <data key="label">Narwee</data>
+    </node>
+    <node id="n105">
+        <data key="x">151.179703</data>
+        <data key="y">-33.898201</data>
+        <data key="label">Newtown</data>
+    </node>
+    <node id="n106">
+        <data key="x">151.097504</data>
+        <data key="y">-33.719898</data>
+        <data key="label">Normanhurst</data>
+    </node>
+    <node id="n107">
+        <data key="x">151.087997</data>
+        <data key="y">-33.858002</data>
+        <data key="label">North Strathfield</data>
+    </node>
+    <node id="n108">
+        <data key="x">151.205399</data>
+        <data key="y">-33.841099</data>
+        <data key="label">North Sydney</data>
+    </node>
+    <node id="n109">
+        <data key="x">151.078705</data>
+        <data key="y">-33.9799</data>
+        <data key="label">Oatley</data>
+    </node>
+    <node id="n110">
+        <data key="x">151.069</data>
+        <data key="y">-33.847099</data>
+        <data key="label">Olympic Park</data>
+    </node>
+    <node id="n111">
+        <data key="x">151.031998</data>
+        <data key="y">-33.950699</data>
+        <data key="label">Padstow</data>
+    </node>
+    <node id="n112">
+        <data key="x">150.996201</data>
+        <data key="y">-33.953701</data>
+        <data key="label">Panania</data>
+    </node>
+    <node id="n113">
+        <data key="x">151.006195</data>
+        <data key="y">-33.8167</data>
+        <data key="label">Parramatta</data>
+    </node>
+    <node id="n114">
+        <data key="x">150.953506</data>
+        <data key="y">-33.800999</data>
+        <data key="label">Pendle Hill</data>
+    </node>
+    <node id="n115">
+        <data key="x">151.073303</data>
+        <data key="y">-33.735298</data>
+        <data key="label">Pennant Hills</data>
+    </node>
+    <node id="n116">
+        <data key="x">150.6922</data>
+        <data key="y">-33.748199</data>
+        <data key="label">Penrith</data>
+    </node>
+    <node id="n117">
+        <data key="x">151.089005</data>
+        <data key="y">-33.965199</data>
+        <data key="label">Penshurst</data>
+    </node>
+    <node id="n118">
+        <data key="x">151.155106</data>
+        <data key="y">-33.893101</data>
+        <data key="label">Petersham</data>
+    </node>
+    <node id="n119">
+        <data key="x">151.057098</data>
+        <data key="y">-33.9245</data>
+        <data key="label">Punchbowl</data>
+    </node>
+    <node id="n120">
+        <data key="x">151.144104</data>
+        <data key="y">-33.7425</data>
+        <data key="label">Pymble</data>
+    </node>
+    <node id="n121">
+        <data key="x">150.886795</data>
+        <data key="y">-33.726799</data>
+        <data key="label">Quakers Hill</data>
+    </node>
+    <node id="n122">
+        <data key="x">151.1978</data>
+        <data key="y">-33.8913</data>
+        <data key="label">Redfern</data>
+    </node>
+    <node id="n123">
+        <data key="x">151.025299</data>
+        <data key="y">-33.881001</data>
+        <data key="label">Regents Park</data>
+    </node>
+    <node id="n124">
+        <data key="x">151.013794</data>
+        <data key="y">-33.951401</data>
+        <data key="label">Revesby</data>
+    </node>
+    <node id="n125">
+        <data key="x">151.085403</data>
+        <data key="y">-33.830101</data>
+        <data key="label">Rhodes</data>
+    </node>
+    <node id="n126">
+        <data key="x">150.753998</data>
+        <data key="y">-33.5998</data>
+        <data key="label">Richmond</data>
+    </node>
+    <node id="n127">
+        <data key="x">150.857498</data>
+        <data key="y">-33.678299</data>
+        <data key="label">Riverstone</data>
+    </node>
+    <node id="n128">
+        <data key="x">151.050507</data>
+        <data key="y">-33.951199</data>
+        <data key="label">Riverwood</data>
+    </node>
+    <node id="n129">
+        <data key="x">151.135406</data>
+        <data key="y">-33.9519</data>
+        <data key="label">Rockdale</data>
+    </node>
+    <node id="n130">
+        <data key="x">150.843903</data>
+        <data key="y">-33.770401</data>
+        <data key="label">Rooty Hill</data>
+    </node>
+    <node id="n131">
+        <data key="x">151.022903</data>
+        <data key="y">-33.822201</data>
+        <data key="label">Rosehill</data>
+    </node>
+    <node id="n132">
+        <data key="x">151.177795</data>
+        <data key="y">-33.7817</data>
+        <data key="label">Roseville</data>
+    </node>
+    <node id="n133">
+        <data key="x">151.0289</data>
+        <data key="y">-33.8102</data>
+        <data key="label">Rydalmere</data>
+    </node>
+    <node id="n134">
+        <data key="x">150.867996</data>
+        <data key="y">-33.6973</data>
+        <data key="label">Schofields</data>
+    </node>
+    <node id="n135">
+        <data key="x">151.010895</data>
+        <data key="y">-33.8848</data>
+        <data key="label">Sefton</data>
+    </node>
+    <node id="n136">
+        <data key="x">150.936996</data>
+        <data key="y">-33.7738</data>
+        <data key="label">Seven Hills</data>
+    </node>
+    <node id="n137">
+        <data key="x">151.211304</data>
+        <data key="y">-33.870899</data>
+        <data key="label">St James</data>
+    </node>
+    <node id="n138">
+        <data key="x">151.195297</data>
+        <data key="y">-33.823601</data>
+        <data key="label">St Leonards</data>
+    </node>
+    <node id="n139">
+        <data key="x">150.774902</data>
+        <data key="y">-33.7612</data>
+        <data key="label">St Marys</data>
+    </node>
+    <node id="n140">
+        <data key="x">151.178299</data>
+        <data key="y">-33.906799</data>
+        <data key="label">St Peters</data>
+    </node>
+    <node id="n141">
+        <data key="x">151.163498</data>
+        <data key="y">-33.893501</data>
+        <data key="label">Stanmore</data>
+    </node>
+    <node id="n142">
+        <data key="x">151.093994</data>
+        <data key="y">-33.871201</data>
+        <data key="label">Strathfield</data>
+    </node>
+    <node id="n143">
+        <data key="x">151.139404</data>
+        <data key="y">-33.889599</data>
+        <data key="label">Summer Hill</data>
+    </node>
+    <node id="n144">
+        <data key="x">151.056396</data>
+        <data key="y">-34.031502</data>
+        <data key="label">Sutherland</data>
+    </node>
+    <node id="n145">
+        <data key="x">151.168503</data>
+        <data key="y">-33.9133</data>
+        <data key="label">Sydenham</data>
+    </node>
+    <node id="n146">
+        <data key="x">151.042496</data>
+        <data key="y">-33.793598</data>
+        <data key="label">Telopea</data>
+    </node>
+    <node id="n147">
+        <data key="x">151.156906</data>
+        <data key="y">-33.922901</data>
+        <data key="label">Tempe</data>
+    </node>
+    <node id="n148">
+        <data key="x">151.078003</data>
+        <data key="y">-33.730598</data>
+        <data key="label">Thornleigh</data>
+    </node>
+    <node id="n149">
+        <data key="x">150.949402</data>
+        <data key="y">-33.786999</data>
+        <data key="label">Toongabbie</data>
+    </node>
+    <node id="n150">
+        <data key="x">151.207108</data>
+        <data key="y">-33.872398</data>
+        <data key="label">Town Hall</data>
+    </node>
+    <node id="n151">
+        <data key="x">151.128403</data>
+        <data key="y">-33.730099</data>
+        <data key="label">Turramurra</data>
+    </node>
+    <node id="n152">
+        <data key="x">151.139694</data>
+        <data key="y">-33.929401</data>
+        <data key="label">Turrella</data>
+    </node>
+    <node id="n153">
+        <data key="x">150.973907</data>
+        <data key="y">-33.880402</data>
+        <data key="label">Villawood</data>
+    </node>
+    <node id="n154">
+        <data key="x">150.849792</data>
+        <data key="y">-33.6497</data>
+        <data key="label">Vineyard</data>
+    </node>
+    <node id="n155">
+        <data key="x">151.117401</data>
+        <data key="y">-33.715698</data>
+        <data key="label">Wahroonga</data>
+    </node>
+    <node id="n156">
+        <data key="x">151.104401</data>
+        <data key="y">-33.707901</data>
+        <data key="label">Waitara</data>
+    </node>
+    <node id="n157">
+        <data key="x">151.121994</data>
+        <data key="y">-33.722698</data>
+        <data key="label">Warrawee</data>
+    </node>
+    <node id="n158">
+        <data key="x">150.933807</data>
+        <data key="y">-33.9147</data>
+        <data key="label">Warwick Farm</data>
+    </node>
+    <node id="n159">
+        <data key="x">150.993393</data>
+        <data key="y">-34.133999</data>
+        <data key="label">Waterfall</data>
+    </node>
+    <node id="n160">
+        <data key="x">151.197998</data>
+        <data key="y">-33.8377</data>
+        <data key="label">Waverton</data>
+    </node>
+    <node id="n161">
+        <data key="x">150.971497</data>
+        <data key="y">-33.806099</data>
+        <data key="label">Wentworthville</data>
+    </node>
+    <node id="n162">
+        <data key="x">150.759705</data>
+        <data key="y">-33.7589</data>
+        <data key="label">Werrington</data>
+    </node>
+    <node id="n163">
+        <data key="x">151.091095</data>
+        <data key="y">-33.805</data>
+        <data key="label">West Ryde</data>
+    </node>
+    <node id="n164">
+        <data key="x">150.986801</data>
+        <data key="y">-33.8069</data>
+        <data key="label">Westmead</data>
+    </node>
+    <node id="n165">
+        <data key="x">151.065994</data>
+        <data key="y">-33.923</data>
+        <data key="label">Wiley Park</data>
+    </node>
+    <node id="n166">
+        <data key="x">150.809402</data>
+        <data key="y">-33.612801</data>
+        <data key="label">Windsor</data>
+    </node>
+    <node id="n167">
+        <data key="x">151.154999</data>
+        <data key="y">-33.925999</data>
+        <data key="label">Wolli Creek</data>
+    </node>
+    <node id="n168">
+        <data key="x">151.191498</data>
+        <data key="y">-33.831299</data>
+        <data key="label">Wollstonecraft</data>
+    </node>
+    <node id="n169">
+        <data key="x">151.143494</data>
+        <data key="y">-34.0476</data>
+        <data key="label">Woolooware</data>
+    </node>
+    <node id="n170">
+        <data key="x">151.205795</data>
+        <data key="y">-33.865101</data>
+        <data key="label">Wynyard</data>
+    </node>
+    <node id="n171">
+        <data key="x">151.023804</data>
+        <data key="y">-33.904202</data>
+        <data key="label">Yagoona</data>
+    </node>
+    <node id="n172">
+        <data key="x">150.969803</data>
+        <data key="y">-33.8638</data>
+        <data key="label">Yennora</data>
+    </node>
+    <edge id="e0" source="n126" target="n47">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e1" source="n47" target="n35">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e2" source="n35" target="n166">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e3" source="n166" target="n102">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e4" source="n102" target="n154">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e5" source="n154" target="n127">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e6" source="n127" target="n134">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e7" source="n134" target="n121">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e8" source="n121" target="n89">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e9" source="n89" target="n16">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e10" source="n50" target="n116">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e11" source="n116" target="n75">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e12" source="n75" target="n162">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e13" source="n162" target="n139">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e14" source="n139" target="n100">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e15" source="n100" target="n130">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e16" source="n130" target="n43">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e17" source="n43" target="n16">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e18" source="n16" target="n136">   
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e19" source="n136" target="n149">  
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e20" source="n149" target="n114">
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e21" source="n114" target="n161">
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e22" source="n161" target="n164">
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e23" source="n164" target="n113">
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e24" source="n113" target="n62">
+        <data key="l1">TRUE</data>
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e25" source="n62" target="n58">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e26" source="n58" target="n36">
+        <data key="l1">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e27" source="n36" target="n5">
+        <data key="l1">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e28" source="n5" target="n82">
+        <data key="l1">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e29" source="n82" target="n55">
+        <data key="l1">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e30" source="n82" target="n110">
+        <data key="l10">TRUE</data>        
+    </edge>
+    <edge id="e31" source="n110" target="n55">
+        <data key="l10">TRUE</data>
+    </edge>
+    <edge id="e32" source="n55" target="n65">
+        <data key="l1">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e33" source="n65" target="n142">
+        <data key="l1">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e34" source="n142" target="n18">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e35" source="n18" target="n40">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e36" source="n40" target="n3">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e37" source="n3" target="n143">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e38" source="n143" target="n81">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e39" source="n81" target="n118">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e40" source="n118" target="n141">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e41" source="n141" target="n105">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e42" source="n105" target="n87">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e43" source="n87" target="n122">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e44" source="n122" target="n30">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l4">TRUE</data>
+        <data key="l6">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e45" source="n30" target="n150">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l6">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e46" source="n150" target="n170">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e47" source="n170" target="n95">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e48" source="n95" target="n108">
+        <data key="l1">TRUE</data>
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e49" source="n108" target="n160">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e50" source="n160" target="n168">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e51" source="n168" target="n138">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e52" source="n138" target="n2">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e53" source="n2" target="n31">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e54" source="n31" target="n132">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e55" source="n132" target="n83">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e56" source="n83" target="n72">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e57" source="n72" target="n57">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e58" source="n57" target="n120">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e59" source="n120" target="n151">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e60" source="n151" target="n157">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e61" source="n157" target="n155">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e62" source="n155" target="n156">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e63" source="n156" target="n66">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e64" source="n66" target="n4">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e65" source="n4" target="n99">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e66" source="n99" target="n101">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e67" source="n101" target="n12">
+        <data key="l1">TRUE</data>
+    </edge>
+    <edge id="e68" source="n66" target="n106">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e69" source="n106" target="n148">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e70" source="n148" target="n115">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e71" source="n115" target="n9">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e72" source="n9" target="n32">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e73" source="n32" target="n52">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e74" source="n52" target="n48">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e75" source="n48" target="n41">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e76" source="n41" target="n163">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e77" source="n163" target="n93">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e78" source="n93" target="n125">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e79" source="n125" target="n38">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e80" source="n38" target="n107">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e81" source="n107" target="n142">
+        <data key="l2">TRUE</data>
+    </edge>
+    <edge id="e82" source="n26" target="n146">
+        <data key="l3">TRUE</data>
+    </edge>
+    <edge id="e83" source="n146" target="n45">
+        <data key="l3">TRUE</data>
+    </edge>
+    <edge id="e84" source="n45" target="n133">
+        <data key="l3">TRUE</data>
+    </edge>
+    <edge id="e85" source="n133" target="n20">
+        <data key="l3">TRUE</data>
+    </edge>
+    <edge id="e86" source="n20" target="n131">
+        <data key="l3">TRUE</data>
+    </edge>
+    <edge id="e87" source="n131" target="n36">
+        <data key="l3">TRUE</data>
+    </edge>
+    <edge id="e88" source="n62" target="n94">
+        <data key="l8">TRUE</data>
+    </edge>
+    <edge id="e89" source="n94" target="n60">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e90" source="n60" target="n172">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e91" source="n172" target="n54">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e92" source="n54" target="n23">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e93" source="n23" target="n19">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e94" source="n19" target="n158">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e95" source="n158" target="n84">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e96" source="n84" target="n29">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e97" source="n29" target="n56">
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e98" source="n56" target="n88">
+        <data key="l5">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e99" source="n88" target="n69">
+        <data key="l5">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e100" source="n69" target="n96">
+        <data key="l5">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e101" source="n96" target="n80">
+        <data key="l5">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e102" source="n80" target="n21">
+        <data key="l5">TRUE</data>
+        <data key="l8">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e103" source="n21" target="n86">
+        <data key="l5">TRUE</data>        
+    </edge>
+    <edge id="e104" source="n56" target="n64">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e105" source="n64" target="n46">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e106" source="n46" target="n112">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e107" source="n112" target="n124">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e108" source="n124" target="n111">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e109" source="n111" target="n128">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e110" source="n128" target="n104">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e111" source="n104" target="n13">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e112" source="n13" target="n74">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e113" source="n74" target="n14">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e114" source="n14" target="n8">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e115" source="n8" target="n152">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e116" source="n152" target="n167">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e117" source="n167" target="n70">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e118" source="n70" target="n42">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e119" source="n42" target="n92">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e120" source="n92" target="n59">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e121" source="n59" target="n30">
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e122" source="n30" target="n103">
+        <data key="l4">TRUE</data>
+        <data key="l5">TRUE</data>
+    </edge>
+    <edge id="e123" source="n103" target="n137">
+        <data key="l4">TRUE</data>
+        <data key="l5">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e124" source="n137" target="n34">
+        <data key="l4">TRUE</data>
+        <data key="l5">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e125" source="n34" target="n170">
+        <data key="l4">TRUE</data>
+        <data key="l5">TRUE</data>
+        <data key="l7">TRUE</data>
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e126" source="n94" target="n58">
+        <data key="l9">TRUE</data>
+    </edge>
+    <edge id="e127" source="n19" target="n28">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>
+    <edge id="e128" source="n28" target="n153">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>
+    <edge id="e129" source="n153" target="n79">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>
+    <edge id="e130" source="n79" target="n33">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>
+    <edge id="e131" source="n33" target="n135">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>
+    <edge id="e132" source="n135" target="n123">
+        <data key="l7">TRUE</data>        
+    </edge>
+    <edge id="e133" source="n123" target="n11">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>
+    <edge id="e134" source="n11" target="n82">
+        <data key="l4">TRUE</data>
+        <data key="l7">TRUE</data>
+    </edge>    
+    <edge id="e135" source="n15" target="n135">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e136" source="n15" target="n123">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e137" source="n15" target="n171">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e138" source="n171" target="n7">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e139" source="n7" target="n119">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e140" source="n119" target="n165">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e141" source="n165" target="n78">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e142" source="n78" target="n10">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e143" source="n10" target="n22">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e144" source="n22" target="n24">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e145" source="n24" target="n67">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e146" source="n67" target="n44">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e147" source="n44" target="n90">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e148" source="n90" target="n145">
+        <data key="l4">TRUE</data>
+    </edge>
+    <edge id="e149" source="n145" target="n140">
+        <data key="l4">TRUE</data>
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e150" source="n140" target="n53">
+        <data key="l4">TRUE</data>
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e151" source="n53" target="n122">
+        <data key="l4">TRUE</data>
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e152" source="n159" target="n63">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e153" source="n63" target="n51">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e154" source="n51" target="n85">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e155" source="n85" target="n144">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e156" source="n39" target="n169">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e157" source="n169" target="n25">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e158" source="n25" target="n97">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e159" source="n97" target="n61">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e160" source="n61" target="n76">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e161" source="n76" target="n144">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e162" source="n144" target="n71">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e163" source="n71" target="n37">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e164" source="n37" target="n109">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e165" source="n109" target="n98">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e166" source="n98" target="n117">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e167" source="n117" target="n68">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e168" source="n68" target="n0">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e169" source="n0" target="n27">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e170" source="n27" target="n77">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e171" source="n77" target="n129">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e172" source="n129" target="n6">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e173" source="n6" target="n1">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e174" source="n1" target="n167">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e175" source="n167" target="n147">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e176" source="n147" target="n145">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e177" source="n150" target="n91">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e178" source="n91" target="n73">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e179" source="n73" target="n49">
+        <data key="l6">TRUE</data>
+    </edge>
+    <edge id="e180" source="n49" target="n17">
+        <data key="l6">TRUE</data>
+    </edge>                
+  </graph>
+</graphml>
