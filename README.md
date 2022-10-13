@@ -1,6 +1,6 @@
 # intermetro
 
-Go to https://tcvdijk.github.io/intermetro/web to run the prototype; a demonstration video is available ... insert link ...
+Go to https://tcvdijk.github.io/intermetro/web to run the prototype; a demonstration video is available on [YouTube](https://www.youtube.com/watch?v=OkiOr95AcAc&list=PLu39BqGd2oyMwWI5BKIpBQUV7UEz5mukJ&index=1).
 
 You can navigate the canvas by scrolling (on a mouse shift-scroll to pan horizontally but it works best with a trackpad), or by using the Navigate-tool and dragging the canvas (here, scrolling zooms). You can jump to a previous version of the drawing by double clicking the entry in the edit history (bottom left), or just view it by clicking on the thumbnail.
 
